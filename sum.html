@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript in Body</h2>
+Enter a
+<input id="t1" type="text" >
+Enter second value
+    <input id="t2" type="text" >
+<Summary>
+    <input id="t3" type="text" onfocus="fun()"></Summary>
+<button >Click Me</button>
+<script>
+function fun()
+{
+    var a = parseInt(document.getElementById("t1").value);
+    var b = parseInt(document.getElementById("t2").value);
+//alert(a+b);
+document.getElementById("t3").value = a+b;
+}
+
+</script>
+
+</body>
+</html> 
